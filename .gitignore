@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+
+# Environment
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data / cache
+data/
+backend_data/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datasets (DO NOT COMMIT)
+dataset/
+unified_dataset/

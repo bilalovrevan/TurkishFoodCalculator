@@ -1,0 +1,29 @@
+# ================= CORE AI =================
+torch==2.2.0
+torchvision==0.17.0
+torchaudio==2.2.0
+
+numpy==1.26.4
+pandas==2.1.1
+
+# ================= IMAGE =================
+pillow==10.0.1
+opencv-python==4.9.0.80
+
+# ================= TRAIN / DATA =================
+tqdm==4.66.1
+icrawler==0.6.7
+datasets==2.17.0
+huggingface-hub==0.22.2
+
+# ================= VISUALIZATION =================
+matplotlib==3.8.0
+
+# ================= BACKEND (FASTAPI) =================
+fastapi==0.110.0
+uvicorn[standard]==0.29.0
+python-multipart==0.0.6
+pydantic==2.6.4
+
+# ================= OPTIONAL (LOCAL UI) =================
+streamlit==1.28.0
